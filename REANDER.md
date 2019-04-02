@@ -24,4 +24,8 @@ python test.py<br>
 ## 注意事项：
  如果import opencv 时出现问题，需要 pip install 与python相应版本的opencv.<br>
  测试的图片尺寸大小最好200x180以上，小的尺寸可以cv2.resize调整.
- 
+### 结果展示
+测试图片来源网络图片以及生活图片，测试结果如下：<br>
+![](https://github.com/1115146632/tensorflow-MTCNN/blob/master/output/2007_000346.jpg)<br>
+![](https://github.com/1115146632/tensorflow-MTCNN/blob/master/output/w475_h331_9a5169d0369e4e1496d1cdfabb1ded85.jpg)<br>
+![](https://github.com/1115146632/tensorflow-MTCNN/blob/master/output/a861d47ca08b7cd41959c5e3a97599a5.jpg)<br>
