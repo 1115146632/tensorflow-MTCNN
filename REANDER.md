@@ -22,6 +22,6 @@ test.py是测试代码<br>
 主要在训练好的模型上直接训练，将欲测试的图片放到picture目录下。然后再vscode控制台上运行下面代码:<br>
 python test.py<br>
 ## 注意事项：
- 如果import opencv 时出现问题，需要 pip install 与python相应版本的opencv.
+ 如果import opencv 时出现问题，需要 pip install 与python相应版本的opencv.<br>
  测试的图片尺寸大小最好200x180以上，小的尺寸可以cv2.resize调整.
  
