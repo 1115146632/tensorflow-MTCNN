@@ -20,7 +20,7 @@ preprocess里是预处理数据程序，BBox_utils.py和utils.py，loader.py是�
 train中的config是一些参数设定，model.py是模型,train.py是训练，train_model.py针对不同网络训练<br><br>
 test.py是测试代码<br>
 ## 测试:<br>
-主要在训练好的模型上直接训练，将欲测试的图片放到picture目录下。然后再vscode控制台上运行下面代码:<br>
+主要在训练好的模型上直接训练，将欲测试的图片放到picture目录下。然后在vscode控制台上运行下面代码:<br>
 python test.py<br>
 ## 注意事项：
  如果import opencv 时出现问题，需要 pip install 与python相应版本的opencv.<br>
